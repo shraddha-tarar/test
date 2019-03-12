@@ -27,7 +27,7 @@ Test the generated getter and setter method
 Public final void testGetSet(){
 sjp.setName("foo");
 assertEquals("foo", sjp.getName());
-
+}
 /**
 Test the null check in setter
 */
@@ -35,6 +35,7 @@ Test the null check in setter
 @Test(expected=NullPointerExecption.class)
 public final void nullTest(){
 sjp.setName(null);
+}
 }
 
 
